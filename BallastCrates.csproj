@@ -54,7 +54,7 @@
   <Target Name="PostBuild" AfterTargets="Build">
     <Copy 
       SourceFiles="$(TargetPath)" 
-      DestinationFolder="E:\SteamLibrary\steamapps\common\Sailwind\BepInEx\plugins\BallastCrateMod\" 
+      DestinationFolder="E:\SteamLibrary\steamapps\common\Sailwind\BepInEx\plugins\BallastCrate\" 
       OverwriteReadOnlyFiles="true" />
   </Target>
 
